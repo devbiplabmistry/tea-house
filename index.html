@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea-House</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/639ec19282.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        module.exports = {
+            theme: {
+                extend: {
+                    colors: {
+                        Headingcolor: '#1C1C1C',
+                        paracolor: '#777777',
+                        primarycolor: '#F4F4F4',
+                        secondary: '#5D5A6F',
+                    },
+                    fontFamily: {
+                        manrope: ['Manrope', 'sans-serif'],
+                        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Banner part start -->
+    <section id="banner">
+        <div class="container mx-auto">
+            <div class="banner-wrapper flex">
+                <div class="banner-content w-1/2">
+                    <h1 class="font-manrope font-extrabold text-7xl leading-[100px] pr-[92px] text-Headingcolor">It's
+                        good
+                        tea time at The Tea House</h1>
+                    <p class="font-manrope font-medium text-base leading-[30px] pr-[190px] text-paracolor py-7">Tea and
+                        Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                    <a class="py-4 px-5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg font-manrope text-lg font-bold text-white capitalize"
+                        href="#">Explore More <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div class="banner-image w-1/2 relative">
+                    <img src="images/banner.png" alt="banner" class="w-full">
+                    <div class="five-star absolute bottom-[-25px]">
+                        <img src="images/5star.png" alt="5star">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner part End -->
+    <!-- products part start -->
+    <section>
+   <div class="container mx-auto">
+    <div class="common-header mx-auto text-center">
+        <h3 class="font-manrope font-extrabold text-4xl text-Headingcolor">Our Featured Products</h3>
+        <p class="font-manrope font-medium text-base leading-[28px]  text-paracolor pt-5 pb-12 px-[195px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+    </div>
+   </div>
+    </section>
+    <!-- products part End -->
+
+</body>
+
+</html>
