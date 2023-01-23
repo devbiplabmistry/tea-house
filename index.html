@@ -13,18 +13,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
     <script>
-        module.exports = {
+        tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        headingcolor: '#1C1C1C',
+                        headingcolor: '#1c1c1c',
                         paracolor: '#777777',
                         primarycolor: '#F4F4F4',
                         secondary: '#5D5A6F',
+                        ttttt: 'red'
                     },
                     fontFamily: {
                         manrope: ['Manrope', 'sans-serif'],
-                        jakarta: ['Plus Jakarta Sans', 'sans-serif'],
+                        jakarta: ['Plus Jakarta Sans', 'sans-serif']
                     },
                 }
             }
@@ -38,10 +39,12 @@
         <div class="container mx-auto">
             <div class="banner-wrapper flex">
                 <div class="banner-content w-1/2">
-                    <h1 class="font-manrope font-extrabold text-7xl leading-[100px]  text-[Headingcolor]">It's
+                    <h1
+                        class="font-manrope text-headingcolor font-extrabold text-7xl leading-[100px]  text-headingcolor">
+                        It's
                         good <br>
                         tea time at The <br> Tea House</h1>
-                    <p class="font-manrope font-medium text-base leading-[30px] pr-[190px] text-[paracolor] py-7">Tea
+                    <p class="font-manrope font-medium text-base leading-[30px] pr-[190px] text-paracolor py-7">Tea
                         and
                         Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
                     <a class="py-4 px-5 bg-[linear-gradient(270deg,_#FF0000_0%,_#FF8938_100%)] rounded-lg font-manrope text-lg font-bold text-white capitalize"
@@ -61,8 +64,8 @@
     <section>
         <div class="container mx-auto">
             <div class="common-header mx-auto text-center">
-                <h3 class="font-manrope font-extrabold text-4xl text-[Headingcolor]">Our Featured Products</h3>
-                <p class="font-manrope font-medium text-base leading-[28px]  text-[paracolor] pt-5 pb-12 px-[195px]">
+                <h3 class="font-manrope font-extrabold text-4xl text-headingcolor">Our Featured Products</h3>
+                <p class="font-manrope font-medium text-base leading-[28px]  text-paracolor pt-5 pb-12 px-[195px]">
                     There
                     are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
                     in some form, by injected humour, or randomised words which don't look even slightly believable.
@@ -74,8 +77,8 @@
                     <div class="products-image">
                         <img src="images/tea-1.png" alt="tea1">
                     </div>
-                    <h3 class="font-manrope font-extrabold pt-7 pb-2  text-2xl text-[Headingcolor]">Milk Tea</h3>
-                    <p class="font-manrope font-semibold text-base leading-[21px]  text-[paracolor]">Creamer could be
+                    <h3 class="font-manrope font-extrabold pt-7 pb-2  text-2xl text-headingcolor">Milk Tea</h3>
+                    <p class="font-manrope font-semibold text-base leading-[21px]  text-paracolor">Creamer could be
                         replaced by fresh milk</p>
                 </div>
                 <div
@@ -83,8 +86,8 @@
                     <div class="products-image">
                         <img src="images/tea-2.png" alt="tea1">
                     </div>
-                    <h3 class="font-manrope font-extrabold text-2xl pt-7 pb-2  text-[Headingcolor]">Black Tea</h3>
-                    <p class="font-manrope font-semibold text-base leading-[21px]  text-[paracolor]">Creamer could be
+                    <h3 class="font-manrope font-extrabold text-2xl pt-7 pb-2  text-headingcolor">Black Tea</h3>
+                    <p class="font-manrope font-semibold text-base leading-[21px]  text-paracolor">Creamer could be
                         replaced by fresh milk</p>
                 </div>
                 <div
@@ -92,8 +95,8 @@
                     <div class="products-image">
                         <img src="images/tea-3.png" alt="tea1">
                     </div>
-                    <h3 class="font-manrope font-extrabold pt-7 pb-2  text-2xl text-[Headingcolor]">Lemon Tea</h3>
-                    <p class="font-manrope font-semibold text-base leading-[21px]  text-[paracolor]">Creamer could be
+                    <h3 class="font-manrope font-extrabold pt-7 pb-2  text-2xl text-headingcolor">Lemon Tea</h3>
+                    <p class="font-manrope font-semibold text-base leading-[21px]  text-paracolor">Creamer could be
                         replaced by fresh milk</p>
                 </div>
                 <div
@@ -101,8 +104,8 @@
                     <div class="products-image">
                         <img src="images/tea-4.png" alt="tea1">
                     </div>
-                    <h3 class="font-manrope font-extrabold text-2xl pt-7 pb-2 text-[Headingcolor]">Green Tea</h3>
-                    <p class="font-manrope font-semibold text-base leading-[21px]  text-[paracolor]">Creamer could be
+                    <h3 class="font-manrope font-extrabold text-2xl pt-7 pb-2 text-headingcolor">Green Tea</h3>
+                    <p class="font-manrope font-semibold text-base leading-[21px]  text-paracolor">Creamer could be
                         replaced by fresh milk</p>
                 </div>
             </div>
@@ -133,18 +136,18 @@
                     </div>
                 </div>
                 <div class="right-g-tea ">
-                    <h3 class="font-manrope font-extrabold text-4xl text-[Headingcolor] mb-4">Great Tea, Freshly
+                    <h3 class="font-manrope font-extrabold text-4xl text-headingcolor mb-4">Great Tea, Freshly
                         Presented</h3>
-                    <p class="font-manrope font-medium text-base leading-[28px]  text-[paracolor]  pr-[161px] mb-6">The
+                    <p class="font-manrope font-medium text-base leading-[28px]  text-paracolor  pr-[161px] mb-6">The
                         meaning of gong cha is chanese is to provide the best tea to emperor from all possessions .
                         It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been
                         deeply appreciated by its custoers because of good words of mouth and unique customized service
                         orginated from Taiwan.</p>
-                    <h4 class="font-manrope font-extrabold text-xl text-[Headingcolor]">Unique Taste</h4>
-                    <p class="font-manrope font-medium text-base leading-[28px]  text-[paracolor]  pr-[266px]">A Unique
+                    <h4 class="font-manrope font-extrabold text-xl text-headingcolor">Unique Taste</h4>
+                    <p class="font-manrope font-medium text-base leading-[28px]  text-paracolor  pr-[266px]">A Unique
                         and different style from other teapots gives a luxurious and minimalist impression</p>
-                    <h4 class="font-manrope font-extrabold text-xl text-[Headingcolor] ">Premium Quality</h4>
-                    <p class="font-manrope font-medium text-base leading-[28px]  text-[paracolor]  pr-[266px]">Premium
+                    <h4 class="font-manrope font-extrabold text-xl text-headingcolor ">Premium Quality</h4>
+                    <p class="font-manrope font-medium text-base leading-[28px]  text-paracolor  pr-[266px]">Premium
                         Quality that makes tea more elegant and more durable when you use it.</p>
                 </div>
             </div>
@@ -172,7 +175,7 @@
                             <p class="font-[manrope] font-normal text-base leading-[28px]  text-[#777]  ">We are
                                 providing the best and suitable home insurance services for the people who are
                                 interested to treatment</p>
-                            <h5 class="font-[manrope] font-bold text-base leading-[28px]  text-[Headingcolor]">Ilham
+                            <h5 class="font-[manrope] font-bold text-base leading-[28px]  text-headingcolor">Ilham
                                 Yuda</h5>
                             <h6 class="font-[manrope] font-semibold text-base leading-[28px]  text-[secondary]">
                                 Businessman</h6>
@@ -185,7 +188,7 @@
                             <p class="font-[manrope] font-normal text-base leading-[28px]  text-[#777] ">We are
                                 providing the best and suitable home insurance services for the people who are
                                 interested to treatment</p>
-                            <h5 class="font-[manrope] font-bold text-base leading-[28px]  text-[Headingcolor]">Ilham
+                            <h5 class="font-[manrope] font-bold text-base leading-[28px]  text-headingcolor">Ilham
                                 Yuda</h5>
                             <h6 class="font-[manrope] font-semibold text-base leading-[28px]  text-[secondary]">
                                 Businessman</h6>
@@ -198,7 +201,7 @@
                             <p class="font-[manrope] font-normal text-base leading-[28px]  text-[#777] ">We are
                                 providing the best and suitable home insurance services for the people who are
                                 interested to treatment</p>
-                            <h5 class="font-[manrope] font-bold text-base leading-[28px]  text-[Headingcolor]">Ilham
+                            <h5 class="font-[manrope] font-bold text-base leading-[28px]  text-headingcolor">Ilham
                                 Yuda</h5>
                             <h6 class="font-[manrope] font-semibold text-base leading-[28px]  text-[secondary]">
                                 Businessman</h6>
@@ -213,8 +216,8 @@
     <section id="news">
         <div class="container mx-auto">
             <div class="common-header mt-[130px] text-center">
-                <h3 class="font-[manrope] font-extrabold text-4xl text-[headingcolor]">News & Events</h3>
-                <p class="font-manrope font-medium text-base leading-[28px]  text-[paracolor] pt-5 pb-12 px-[195px]">
+                <h3 class="font-[manrope] font-extrabold text-4xl text-headingcolor">News & Events</h3>
+                <p class="font-manrope font-medium text-base leading-[28px]  text-paracolor pt-5 pb-12 px-[195px]">
                     There
                     are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
                     in some form, by injected humour, or randomised words which don't look even slightly believable.
@@ -328,7 +331,6 @@
 
     </section>
     <!-- footer part End -->
-
 </body>
 
 </html>

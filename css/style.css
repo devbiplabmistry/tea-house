@@ -1,2 +1,16 @@
-
+/* ======common css Start Here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+h1,h2.h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    margin: 0 auto;
+}
 /* ======common css End Here */
